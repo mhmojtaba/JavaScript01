@@ -1,0 +1,30 @@
+html {
+  direction: rtl;
+  @font-face {
+    font-family: "vazir";
+    src: url("../assets/font/vazir.eot"),
+      /* IE9 Compat Modes */ url("../assets/font/vazir.woff2") format("woff2"),
+      /* Super Modern Browsers */ url("../assets/font/vazir.woff")
+        format("woff"),
+      /* Pretty Modern Browsers */ url("../assets/font/vazir.ttf")
+        format("truetype"); /* Safari, Android, iOS */
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "varir";
+}
+
+select {
+  padding: 15px;
+  font-size: 18px;
+}
